@@ -1,0 +1,175 @@
+name: begena
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.2.0+2
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  rive: ^0.11.2
+  math_expressions: ^2.4.0
+  smooth_page_indicator: ^1.1.0
+  carousel_slider: ^4.2.1
+  flutter_svg: ^2.0.6
+  path: ^1.8.3
+  audioplayers: ^4.1.0
+  flutter_rating_bar: ^4.0.1
+  store_redirect: ^2.0.1
+  device_preview: ^1.1.0
+  just_audio: ^0.9.34
+  google_mobile_ads: ^3.0.0
+  flutter_audio_recorder2: 
+    path: C:\Users\User\Downloads\flutter_audio_recorder2-main\flutter_audio_recorder2-main
+  #flutter_audio_recorder2: ^0.0.2
+  #flutter_audio_recorder3: ^0.0.5
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_screenutil: ^5.6.1
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/background/app icon 3 final.png"
+  adaptive_icon_background: "#bb9c89"
+  adaptive_icon_foreground: "assets/background/1024.png"
+  min_sdk_android: 20 
+  web:
+    generate: true
+    image_path: "assets/background/app icon 3 final.png"
+    background_color: "#CA9964"
+    theme_color: "#bb9c89"
+  windows:
+    generate: true
+    image_path: "assets/background/app icon 3 final.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/background/app icon 3 final.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   #Rive_
+   - assets\Rive_\begenablack.riv
+   - assets\Rive_\begenabrown.riv
+   - assets\Rive_\begenared.riv
+   - assets\Rive_\begenawhite.riv
+   #background 
+   - assets\background\Begena guy.png
+   - assets\background\icone.png
+   - assets\background\home.jpg
+   - assets\background\button.png
+   - assets\background\berana.png
+   - assets\background\dima.png
+   - assets\background\13.png
+   - assets\background\14.png
+   #choosebegena
+   - assets\chooseBegena\1.png
+   - assets\chooseBegena\2.png
+   - assets\chooseBegena\3.png 
+   # begena images
+   - assets\Begena image\1.png
+   - assets\Begena image\2.png
+   - assets\Begena image\3.png
+   #Begena Sounds
+   - assets\begena_sounds\Asharp1.mp3
+   - assets\begena_sounds\Asharp2.mp3
+   - assets\begena_sounds\A1.mp3
+   - assets\begena_sounds\A2.mp3
+   - assets\begena_sounds\B1.mp3
+   - assets\begena_sounds\B2.mp3
+   - assets\begena_sounds\csharp2.mp3
+   - assets\begena_sounds\Csharp3.mp3
+   - assets\begena_sounds\C2.mp3
+   - assets\begena_sounds\C3.mp3
+   - assets\begena_sounds\Dsharp2.mp3
+   - assets\begena_sounds\D2.mp3
+   - assets\begena_sounds\E2.mp3
+   - assets\begena_sounds\Fsharp2.mp3
+   - assets\begena_sounds\F2.mp3
+   - assets\begena_sounds\Gsharp2.mp3
+   - assets\begena_sounds\G2.mp3
+   # Traning 
+   - assets\InsturmentImage\Begena.jpg
+   - assets\InsturmentImage\Kerar.jpg
+   - assets\InsturmentImage\Masenko.jpg
+   - assets\InsturmentImage\Washent.jpg
+
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Dire_Dawa
+      fonts:
+        - asset: assets\Fonts\Dire_Dawa.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
